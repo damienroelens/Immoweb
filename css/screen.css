@@ -1,0 +1,508 @@
+/* line 17, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+q,
+blockquote {
+  quotes: none;
+}
+
+/* line 103, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 7, ../scss/screen.scss */
+
+html {
+  margin: auto;
+  width: 1200px;
+  font-family: Helvetica,Arial,'sans-serif';
+}
+
+/* line 14, ../scss/screen.scss */
+
+header > h1 {
+  height: 71px;
+  background-image: url(../img/logo_Global.gif);
+  background-repeat: no-repeat;
+  text-indent: 9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 25, ../scss/screen.scss */
+
+header {
+  width: 377px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* line 32, ../scss/screen.scss */
+
+nav {
+  padding-top: 64px;
+  float: right;
+  width: 815px;
+}
+
+/* line 38, ../scss/screen.scss */
+
+nav ul {
+  margin-left: 40px;
+}
+
+/* line 44, ../scss/screen.scss */
+
+nav ul li {
+  display: inline-block;
+  border-top-right-radius: 10px;
+  border: 1px solid grey;
+  background-color: #b5c135;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  font-family: Verdana, Futura, "sans-serif";
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* line 59, ../scss/screen.scss */
+
+nav ul li:hover,
+nav ul li.actif {
+  background-color: #3D6CAA;
+  -webkit-box-shadow: 1px -1px 5px grey;
+  box-shadow: 1px -1px 5px grey;
+}
+
+/* line 68, ../scss/screen.scss */
+
+nav ul li:hover > a,
+nav ul li.actif > a {
+  color: #DDD;
+}
+
+/* line 73, ../scss/screen.scss */
+
+nav ul li > a {
+  padding: 9px;
+  display: block;
+  color: #111;
+  text-decoration: none;
+}
+
+/* line 80, ../scss/screen.scss */
+
+nav ul li:last-child {
+  background-color: orange;
+}
+
+/* line 84, ../scss/screen.scss */
+
+nav ul li:last-child:hover {
+  background-color: #d92626;
+}
+
+/* line 90, ../scss/screen.scss */
+
+#wrapper figure {
+  position: relative;
+}
+
+/* line 93, ../scss/screen.scss */
+
+#wrapper figure img {
+  -o-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 2px 2px 5px grey;
+  box-shadow: 2px 2px 5px grey;
+}
+
+/* line 106, ../scss/screen.scss */
+
+#wrapper figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #EEE;
+  background-color: rgba(26, 26, 26, 0.7);
+  padding: 20px;
+  border-bottom-right-radius: 10px 10px;
+}
+
+/* line 116, ../scss/screen.scss */
+
+#wrapper figcaption > h2 {
+  padding: 0px 0px 10px 0px;
+  font-family: Verdana, Futura, "sans-serif";
+  font-size: 1.25em;
+}
+
+/* line 124, ../scss/screen.scss */
+
+#content {
+  width: 850px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+
+/* line 132, ../scss/screen.scss */
+
+#content li {
+  padding: 15px;
+  border-radius: 7px;
+  border: 1px solid lightgrey;
+  margin: 20px 35px 20px 0px;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 200px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+/* line 145, ../scss/screen.scss */
+
+#content li h4 {
+  padding: 10px;
+  padding-left: 0px;
+  font-family: Verdana, Futura, "sans-serif";
+  font-weight: 400;
+}
+
+/* line 154, ../scss/screen.scss */
+
+#content li:hover {
+  background-color: rgba(177, 197, 53, 0.2);
+}
+
+/* line 159, ../scss/screen.scss */
+
+#content > h3 {
+  font-size: 18px;
+  font-family: Verdana, Futura, "sans-serif";
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+/* line 167, ../scss/screen.scss */
+
+#content figcaption {
+  display: inline-block;
+  width: 170px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+/* line 174, ../scss/screen.scss */
+
+#content img {
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* line 181, ../scss/screen.scss */
+
+#content a {
+  display: block;
+  text-decoration: none;
+  color: #191919;
+}
+
+/* line 187, ../scss/screen.scss */
+
+#content a:hover {
+  text-shadow: 0px 0px 1px grey;
+}
+
+/* line 191, ../scss/screen.scss */
+
+#content > p {
+  text-align: right;
+}
+
+/* line 195, ../scss/screen.scss */
+
+#content p > a {
+  text-decoration: underline;
+}
+
+/* line 201, ../scss/screen.scss */
+
+aside {
+  width: 235px;
+  display: inline-block;
+  margin: 20px;
+  border-left: 1px solid lightgrey;
+  padding: 15px;
+  text-align: center;
+}
+
+/* line 210, ../scss/screen.scss */
+
+aside figure {
+  padding: 10px;
+}
+
+/* line 215, ../scss/screen.scss */
+
+aside > h4 {
+  font-family: Verdana, Futura, "sans-serif";
+  font-size: 16px;
+  margin: 15px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+/* line 224, ../scss/screen.scss */
+
+aside figcaption {
+  text-indent: 9999px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0px;
+  height: 0px;
+}
+
+/* line 233, ../scss/screen.scss */
+
+aside #face,
+aside #twi,
+aside #and,
+aside #iph {
+  width: 45px;
+  height: 43px;
+  display: inline-block;
+  text-indent: 9999px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 5px;
+  background-repeat: no-repeat;
+}
+
+/* line 245, ../scss/screen.scss */
+
+aside #face {
+  background: url("../img/homefb.jpg");
+  background-repeat: no-repeat;
+}
+
+/* line 250, ../scss/screen.scss */
+
+aside #twi {
+  background: url("../img/hometw.jpg");
+  background-repeat: no-repeat;
+}
+
+/* line 255, ../scss/screen.scss */
+
+aside #and {
+  background: url("../img/homeandroid.jpg");
+  background-repeat: no-repeat;
+}
+
+/* line 260, ../scss/screen.scss */
+
+aside #iph {
+  background: url("../img/homeiphone.jpg");
+  background-repeat: no-repeat;
+}
+
+/* line 267, ../scss/screen.scss */
+
+footer {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* line 276, ../scss/screen.scss */
+
+footer ul {
+  margin: 10px 20px;
+}
+
+/* line 281, ../scss/screen.scss */
+
+footer ul > li {
+  display: inline-block;
+}
+
+/* line 286, ../scss/screen.scss */
+
+footer ul li:after {
+  content: "|";
+  color: #b5c135;
+}
+
+/* line 292, ../scss/screen.scss */
+
+footer ul li:last-child:after {
+  content: "";
+}
+
+/* line 297, ../scss/screen.scss */
+
+footer ul > li > a {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #323232;
+  text-decoration: none;
+}
+
+/* line 305, ../scss/screen.scss */
+
+footer ul > li > a:hover {
+  text-shadow: 1px 1px darkgrey;
+}
